@@ -1,0 +1,40 @@
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: think
+  labels:
+    app: think
+spec:
+  type: NodePort
+  selector:
+    app: think
+  ports:
+  - protocol: TCP
+    port: 8010
+    name: http
+
+---
+
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: think
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: think
+    spec:
+      containers:
+      - name: think
+        image: mavenfx:latest
+        ports:
+        - containerPort: 8010
+        livenessProbe:
+          httpGet:
+            path: /ideias
+            port: 8010
+          initialDelaySeconds: 30
+          timeoutSeconds: 1

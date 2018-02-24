@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="anchorpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="310.0" prefWidth="315.0" stylesheets="@../styles/Standard.css" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.initialScreenController">
+   <children>
+      <ImageView fitHeight="310.0" fitWidth="315.0" opacity="0.15" pickOnBounds="true">
+         <image>
+            <Image url="@../styles/background.jpeg" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="txtsenhaR" focusTraversable="false" layoutX="77.0" layoutY="139.0" opacity="0.9" promptText="Senha">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></PasswordField>
+      <TextField fx:id="txtuserR" focusTraversable="false" layoutX="77.0" layoutY="83.0" opacity="0.9" promptText="Usuário">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></TextField>
+      <TextField fx:id="txtemailR" focusTraversable="false" layoutX="77.0" layoutY="194.0" opacity="0.9" promptText="Endereço de e-mail">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></TextField>
+      <Button id="btnregistrar" fx:id="btnregistrar" focusTraversable="false" layoutX="77.0" layoutY="235.0" mnemonicParsing="false" opacity="0.75" prefHeight="28.0" prefWidth="168.0" text="Registrar" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></Button>
+      <Label focusTraversable="false" layoutX="134.0" layoutY="65.0" opacity="0.9" text="Usuário" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></Label>
+      <Label focusTraversable="false" layoutX="139.0" layoutY="121.0" opacity="0.9" text="Senha" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></Label>
+      <Label focusTraversable="false" layoutX="139.0" layoutY="176.0" opacity="0.9" text="E-mail" textFill="WHITE">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font></Label>
+      <Label id="lbltitle" focusTraversable="false" layoutX="34.0" layoutY="20.0" opacity="0.75" text="Think, compartilhe ideias" textFill="#3c084d">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button id="btnconta" fx:id="btnconta" focusTraversable="false" layoutX="95.0" layoutY="268.0" mnemonicParsing="false" opacity="0.75" prefHeight="28.0" prefWidth="128.0" text="Já possuo conta" underline="true">
+         <font>
+            <Font name="Roboto" size="14.0" />
+         </font>
+      </Button>
+      <AnchorPane id="anchorpane" fx:id="anchorPaneEntrar" layoutX="316.0" prefHeight="310.0" prefWidth="315.0">
+         <children>
+            <ImageView fitHeight="310.0" fitWidth="315.0" opacity="0.15" pickOnBounds="true">
+               <image>
+                  <Image url="@../styles/background.jpeg" />
+               </image>
+            </ImageView>
+            <TextField fx:id="txtuserE" focusTraversable="false" layoutX="77.0" layoutY="139.0" opacity="0.9" promptText="Nome de usuário">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font></TextField>
+            <PasswordField fx:id="txtsenhaE" focusTraversable="false" layoutX="77.0" layoutY="194.0" opacity="0.9" promptText="Senha">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font></PasswordField>
+            <Button id="btnentrar" fx:id="btnentrar" focusTraversable="false" layoutX="77.0" layoutY="235.0" mnemonicParsing="false" opacity="0.75" prefHeight="28.0" prefWidth="168.0" text="Entrar" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font></Button>
+            <Label focusTraversable="false" layoutX="134.0" layoutY="121.0" opacity="0.9" text="Usuário" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font></Label>
+            <Label focusTraversable="false" layoutX="139.0" layoutY="176.0" opacity="0.9" text="Senha" textFill="WHITE">
+               <font>
+                  <Font name="Roboto" size="14.0" />
+               </font></Label>
+            <Button id="btnvoltar" fx:id="btnvoltar" focusTraversable="false" mnemonicParsing="false" opacity="0.75" text="&lt;&lt;" textAlignment="CENTER">
+               <font>
+                  <Font name="Roboto Bold" size="15.0" />
+               </font>
+            </Button>
+            <Label id="lbltitle" focusTraversable="false" layoutX="34.0" layoutY="20.0" opacity="0.75" text="Think, compartilhe ideias">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
