@@ -1,5 +1,5 @@
 # ThinkProject
-##### Já teve aquela ideia e quis uma opinião de terceiros mas não sabia para quem perguntar? 
+#### Já teve aquela ideia e quis uma opinião de terceiros mas não sabia para quem perguntar? 
 
 Esse Software é um protótipo de uma uma 'mídia social', onde o usuário pode anotar suas ideias e compartilhar com o público, para receber um feedback ou um apoio no desenvolvimento.
 
