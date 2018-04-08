@@ -8,7 +8,7 @@ Esse Software foi desenvolvido em Java/JavaFX e utilizando a tecnologia da Apach
  
 
 ### Pré-requisitos:
-Ter uma conta no Microsoft Azure e a versão 8 ou superior do Java JDK instalado na sua máquina e suporte para JavaFX e Maven na IDE que utilizará para executar o programa, no meu caso utilizei o NetBeans.
+Ter uma conta no Microsoft Azure, a versão 8 ou superior do Java JDK instalado na sua máquina e suporte para JavaFX e Maven na IDE que utilizará para executar o programa, no meu caso utilizei o NetBeans.
 
 **dica:** Utilizar o Scene Builder ajudará na customização da tela. 
 
